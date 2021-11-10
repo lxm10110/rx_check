@@ -2,24 +2,15 @@ package com.xiaobu121.xiaobu.new_fast;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.snackbar.Snackbar;
+import android.util.Log;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.View;
 
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-import com.xiaobu121.xiaobu.fast_check.CheckActivity;
-import com.xiaobu121.xiaobu.new_fast.databinding.ActivityMainBinding;
-
-import android.view.Menu;
-import android.view.MenuItem;
-
+/**
+ * [![](https://jitpack.io/v/lxm10110/rx_check.svg)](https://jitpack.io/#lxm10110/rx_check)
+ */
 public class MainActivity extends AppCompatActivity {
 
 
@@ -28,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.fragment_second);
-
+//        Log.e("nxdx------"," "+CheckActivity.TAG);
         findViewById(R.id.button_second).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, CheckActivity.class));
+//                startActivity(new Intent(MainActivity.this, CheckActivity.class));
             }
         });
     }
