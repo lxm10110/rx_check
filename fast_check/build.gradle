@@ -6,12 +6,13 @@ group='com.github.lxm10110'
 
 
 android {
-    compileSdk 30
+     compileSdkVersion 29
 
+    buildToolsVersion "29.0.0"
     defaultConfig {
 //        applicationId "com.xiaobu121.xiaobu.fast_check"
-        minSdk 21
-        targetSdk 30
+        minSdkVersion 21
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
