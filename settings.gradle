@@ -1,3 +1,4 @@
 
 include ':app'
 include ':fast_check'
+include ':thread_check'

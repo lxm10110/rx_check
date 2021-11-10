@@ -2,10 +2,11 @@ package com.xiaobu121.xiaobu.new_fast;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.xiaobu121.xiaobu.fast_check.CheckActivity;
 
 
 /**
@@ -23,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_second).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                startActivity(new Intent(MainActivity.this, CheckActivity.class));
+                startActivity(new Intent(MainActivity.this, CheckActivity.class));
+
             }
         });
     }
